@@ -1,0 +1,81 @@
+*{
+    margin: 0px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+body{
+    background:url(../img/pexels-felix-mittermeier-956999.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.containar{
+    width: 650px;
+    margin: 10% auto;
+
+}
+
+.reset_section{
+    background-color: #009affb0;
+    padding: 25px;
+}
+
+.reset_section h2{
+    text-transform: uppercase;
+    font-weight: bold;
+    text-align: center;
+    font-size: 32px;
+    color: white;
+}
+
+.reset_section img{
+    display: block;
+    width: 200px;
+    margin: 0 auto;
+}
+
+.reset_form{
+    text-align: center;
+}
+
+.form-control{
+    width: 75%;
+    height: 25px;
+    padding: 5px;
+    margin-bottom: 10px;
+
+}
+
+.login-btn{
+    background: orange;
+    color: #fff;
+    padding: 7px 25px;
+    text-transform: uppercase;
+    border: none;
+    margin: 0 auto;
+    display: block;
+    border-radius: 25px;
+    transition: 0.8s ease-in-out;
+    -webkit-transition: 0.8s ease-in-out;
+    -moz-transition: 0.8s ease-in-out;
+    -o-transition: 0.8s ease-in-out;
+}
+
+.login-btn:hover{
+    box-shadow: 3px 3px 4px white;
+    cursor: pointer;
+}
+
+.submit{
+    text-align: center;
+    padding-top: 15px;
+}
+
+.reset_now{
+    margin: 0px 0px 0px 15px;
+}
+
+.gender{
+    margin: 0px 15px 0px 0px;
+    color: white;
+}
